@@ -1,0 +1,18 @@
+@keyframes slideInTitle {
+    from{
+        transform: translateX(-250px);
+        opacity: 0.01;
+    }
+    
+    to{
+        transform: translateX(-250px);
+        opacity: 0.01;
+    }
+}
+
+/*Applying animations to different elements*/
+
+
+h1{
+    animation: slideInTitle 1s ease-in 0s 1 normal none;
+}
