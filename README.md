@@ -1,5 +1,5 @@
 # Mantafarm
 
-Personal webpage project
+Personal webpage project for the MantaFarm club.
 
-Pure HTML and CSS
+Pure HTML and CSS.
