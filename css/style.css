@@ -36,6 +36,11 @@
     cursor: pointer;
     filter: invert(100%);
 }
+.main-logo{
+    width: 300px;
+    margin-left: 30%;
+    border-radius: 50%;
+}
 
 nav{
     flex: 1;
@@ -93,5 +98,9 @@ p{
         color: white;
         font-size: 10px;
     
+    }
+
+    .main-logo{
+        width: 70%;
     }
 }

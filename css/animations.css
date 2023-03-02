@@ -1,12 +1,12 @@
 @keyframes slideInTitle {
     from{
-        transform: translateX(-250px);
-        opacity: 0.01;
+        transform: translateX(-200px);
+        opacity: 0.001;
     }
     
     to{
-        transform: translateX(-250px);
-        opacity: 0.01;
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 
@@ -14,5 +14,6 @@
 
 
 h1{
-    animation: slideInTitle 1s ease-in 0s 1 normal none;
+    animation: slideInTitle 1.5s ease-in 0s 1 normal none;
 }
+
