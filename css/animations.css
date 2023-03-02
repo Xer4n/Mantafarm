@@ -1,6 +1,6 @@
 @keyframes slideInTitle {
     from{
-        transform: translateX(-200px);
+        transform: translateX(-50px);
         opacity: 0.001;
     }
     
