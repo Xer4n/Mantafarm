@@ -118,6 +118,12 @@ h3, h5{
     margin-top: 3%;
 }
 
+.calendar-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
 /*for smaller screens, applying custom scaleability*/
 @media only screen and (max-width:750px){
     .landing-col{
