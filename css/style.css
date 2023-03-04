@@ -100,6 +100,7 @@ h3, h5{
 .left, .right{
     height: 70vh;
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .left{
@@ -124,7 +125,7 @@ h3, h5{
         flex-basis: 100vw;
     }
     .lower-container{
-        height: 190vh;
+        height: 220vh;
     }
     h1 {
         font-size: 30px;
@@ -160,6 +161,10 @@ h3, h5{
     }
 
     .watermark{
-        margin-top: 30%;
+        margin-top: 70%;
+    }
+
+    .right{
+        padding-top: 50%;
     }
 }
