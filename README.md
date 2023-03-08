@@ -2,4 +2,4 @@
 
 Personal webpage project for the MantaFarm club.
 
-Pure HTML and CSS.
+Pure HTML, CSS and Bootstrap.

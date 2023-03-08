@@ -3,6 +3,8 @@
     padding: 0;
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    scroll-behavior: smooth;
 }
 
 .landing-container{
@@ -48,6 +50,7 @@
     width: 150px;
     cursor: pointer;
     filter: invert(100%);
+    transform: translateY(-15px);
 }
 .main-logo{
     width: 300px;
@@ -145,6 +148,7 @@ h3, h5{
     }
     .logo{
         width: 20%;
+        transform: translateY(-10px);
     }
     nav ul li a{    
         color: white;
