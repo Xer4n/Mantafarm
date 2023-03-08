@@ -79,6 +79,10 @@ nav ul li a:hover{
 
 }
 
+.current-page{
+    color: gray;
+}
+
 h1{
     font-family: 'Orbitron', sans-serif;
     color: white;
@@ -109,6 +113,10 @@ h3, h5{
     padding-top: 10%;
     margin-left: 10%;
 }
+.sm-logo{
+    margin-top: 10px;
+    width: 30px;
+}
 
 .bottom-foot{   
     width: 100%;
@@ -121,9 +129,18 @@ h3, h5{
 }
 
 .calendar-container{
-    margin-top: 5%;
+    margin-top: 8%;
     display: flex;
     justify-content: center;
+}
+
+.event-style{
+    margin-top: 32px;
+}
+
+.logo-fix{
+    /*This makes no sense but fixes the logo jumping when changing pages*/
+    transform: translateY(1px);
 }
 
 /*for smaller screens, applying custom scaleability*/
@@ -148,6 +165,10 @@ h3, h5{
     .logo{
         width: 20%;
         transform: translateY(-10px);
+        margin-left: 6px;
+    }
+    nav ul li{
+        margin-left: 10px;
     }
     nav ul li a{    
         color: white;
@@ -173,5 +194,9 @@ h3, h5{
     }
     .right{
         padding-top: 50%;
+    }
+
+    .event-style{
+        margin-top: 0;
     }
 }
