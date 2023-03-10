@@ -149,7 +149,7 @@ h3, h5{
         flex-basis: 100vw;
     }
     .lower-container{
-        height: 220vh;
+        height: 190vh;
     }
     h1 {
         font-size: 30px;
@@ -190,10 +190,10 @@ h3, h5{
     }
 
     .watermark{
-        margin-top: 70%;
+        margin-top: 20%;
     }
     .right{
-        padding-top: 50%;
+        padding-top: 15%;
     }
 
     .event-style{
