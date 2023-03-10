@@ -81,6 +81,7 @@ nav ul li a:hover{
 
 .current-page{
     color: gray;
+    text-decoration: underline;
 }
 
 h1{
@@ -136,6 +137,7 @@ h3, h5{
 
 .event-style{
     margin-top: 32px;
+    text-decoration: none;
 }
 
 .logo-fix{
